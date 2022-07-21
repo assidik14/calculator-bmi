@@ -1,0 +1,6 @@
+services:
+  web-app:
+    container_name: calc-bmi
+    image: assidik14/calculator-bmi:1.0
+    ports:
+      - 8080:80
